@@ -1,0 +1,53 @@
+DOMANDE Sistemi di Elaborazione Accelerata 
+Modulo 1: SIMD, Memorie e Cache CPU, Principi di acquisizione immagini e 3D sensing, Numeri Reali (rappresentazione, tipi), FPGA.
+Modulo 2: CUDA (Modello di programmazione, modello di esecuzione, modello di memoria).
+
+- Spiegare modello di programmazione, esecuzione e memoria CUDA
+- spiegazione shared memory e esercizio sui bank conflict
+- costo del context switch dei warp
+- in cosa consiste il parallelismo dinamico e sincronizzazione in quel contesto
+- cos'è la memoria pinned e vantaggi/svantaggi
+- vari tipi di memoria, quindi zero-copy ecc... tutti quanti in ordine, quali sono le loro caratteristiche e che differenza c'è fra l'uno e l'altro sia in termini di programmazione che di funzionamento effettivo, quindi anche un pò come funziona la paginazione della memoria. 
+- definizione di occupancy e mi ha chiesto di spiegargli bene cosa succede e quali sono le cause di quando è troppo bassa e quando è troppo alta.
+-  definizione e spiegare bene la roofline, quindi quali sono le due unità di misura, cosa succede quando siamo memory bound e compute bound, come mai, ecc...
+- Tipi di cache (CPU), vantaggi e svantaggi. Perché line fill é conveniente?
+- Formula mappatura indice per una matrice (CUDA).
+- Perché il line fill è conveniente e perché viene usato  (con focus su come sono fatte le memorie)
+- Tipi di cache, focus sulle set-associative (con anche disegno)
+- Architettura della cache (latch)
+- Relazione latency hiding-occpuancy
+- Architettura di un SM 
+- Occupancy teorica ed effettiva
+- Waves per SM
+- Problematiche somme e moltiplicazioni float
+- Bit di arrotondamento
+- Vantaggi di FMA e Multiply and Accumulate
+- Pattern d'accesso alla SM (banks)
+- Com'è memorizzata una matrice
+- Accesso allineato e coalescente
+- Intensità aritmetica
+- fpga, in particolare come fossero composti i blocchi e cosa fa la memoria dell’fpga
+- occupancy teoria e effettiva
+- branch efficiency
+- perché il cambio di contesto del warp scheduler é senza costo
+- roofline model (quali misure ci sono sull’asse x e y)
+- differenza simd simt
+- ⁠ITS e divergenza
+- ⁠accessi coalescenti
+- ⁠allineamento
+- ⁠vari tipi di sincronizzazione
+- mi ha fatto convertire un numero binario espresso in E5M2
+- ⁠come si indentificano i numeri subnormali
+- ⁠qual’è il min numero rappresentabile normale in E5M2
+- E5M2
+- tecniche per ridurre l'impronta in memoria dei dati di una rete neurale
+- perché nella pallettizzazione avere meno centroidi rende la rappresentazione più leggera (ovviamente meno centroidi, ma vi sono anche meno indici quindi si può usare un tipo di dato più piccolo)
+- esempio di valore in E5M2 da tradurre in decimale
+- qual è il numero subnormale più grande rappresentabile in E5M2 e quanto valga l'esponente in quel caso
+- calcolo dell'indice globale in 2D
+- accessi coalescenti
+- esempio di matrice trasposta
+- accessi allineati
+- shared memory
+- formula occupancy
+- formula branch efficiency
