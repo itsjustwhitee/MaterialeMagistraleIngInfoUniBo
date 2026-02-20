@@ -1,4 +1,8 @@
 
-# Materiale Magistrale Ingegneria Informatic - UniBo
+# 🎓 Materiale Magistrale Ingegneria Informatica - UniBo
 
 Questa repository fa da supporto al materiale [Notion](https://justwhitee.notion.site/Appunti-Ingegneria-Informatica-Unibo-6d4afc02fd114ee1b65fac5ab8e25201?source=copy_link).
+
+In particolare ci puoi trovare altri miei appunti e risorse, ma anche di altri studenti degli anni precedenti. Ogni risorsa altrui é attribuita a chi di competenza. Ad ogni modo su notion sono presenti contenuti non presenti qui. 
+
+Come riferimento principale, ancora wip (attualmente), puoi trovare molto (appunti e non solo) su [Carta Binaria](https://cartabinaria.students.cs.unibo.it/).
